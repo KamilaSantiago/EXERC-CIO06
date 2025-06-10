@@ -2,21 +2,110 @@
 <html>
     
 <head>
-<h1>KS ESPORTES</h1>
-<head>
+    <meta charset="UTF-8">
+<title>KS ESPORTES</title>
+<style>
+    body {
+        font-family: Arial, Helvetica, sans-serif;
+        margin: 20px;
+    }
+    header, section {
+        margin-bottom: 30px;
+    }
+    nav ul {
+        list-style: none;
+        display: flex;
+        gap: 20px;
+        background-color: antiquewhite;
+        padding: 10px;
+    }
+    nav ul li a {
+        text-decoration: line-through;
+        color:coral;
+        font-weight:darkblue;
+    }
+    nav ul li a:hover {
+        color:chocolate;
+    }
+    img {
+        max-width: 300px;
+        height: auto;
+    }
+</style>
+</head>
     <body>
+        <header>
         <img src="KS ESPORTES.png">
+        <h1>KS ESPORTES</h1>
+</header>
+    <!----menu-->
+<nav>
+    <ul>
+    <li><a href="index.html">Página de Início</a></li>
+    <li><a href="basquete/basquete.html">Página basquete/a></li>
+    <li><a href="futebol/futebol.html">Página futebol</a></li>
+    <li><a href="vôlei/vôlei.html">Página vôlei</a></li>
+  </ul>
+</nav>
+<!---sobre a loja-->
+<section>
+    <h2>Sobre a loja</h2>
+    <p>Bem vind@ à KS ESPORTES! Aqui você encontra os melhores produtos pelo melhor preço, além de, é claro, o melhor atendimento desde semana passada (quando a loja foi criada).</p>
+    <img src="lojafisica.jpg" alt= "Imagem da loja física">
+</section>
+
+<!----destaques-->
+<section>
+    <h2>Produtos em Destaque</h2>
+
+    <h3>Basquete</h3>
+    <a href="basquete/basquete.html">
+        <img src="bolabsquete.jpg" alt="Produto em Destaque= Basquete">
+    </a>
+
+    <h3>Basquete</h3>
+    <a href="futebol/futebol.html">
+        <img src="tenisnike.jpg" alt="Produto em Destaque= Futebol">
+    </a>
     
-    <p>Menu:</p>
+    <h3>Vôlei</h3>
+    <a href="vôlei/vôlei.html">
+        <img src="bolavolei.jpg" alt="Produto em Destaque= Vôlei">
+    </a>
+</section>
+    <!----localização-->
 
-    <a href="basquete/basquete.html">Página basquete/a>
-    <a href="futebol/futebol.html">Página futebol</a>
-    <a href="vôlei/vôlei.html">Página vôlei</a>
+    <section>
+    <h2>>Nossa localização:</h2>
+    <p>Rod. Salinas I. Pedra Azul - Salinas, MG, (Número xxx) 39560-000</p>
+    <iframe
+    src="https://maps.app.goo.gl/BSJRoKmgbkLjMVYt8"
+    width"400"
+    height="300"
+    style="border:0;"
+    allowfullscreen=""
+    loading="lazy"
+    referrerpolicy="no-referrer-when-downgrade">
+</iframe>
+</section>
 
+<!----pagamento-->
+<section>
+    <h2>Formas de Pagamemto</h2>
+    <ul>
+        <li>Cartão de Crédito ou Débito</li>
+        <li>Dinheiro</li>
+        <li>PIX</li>
+    </ul>
+</section>
+<!-----proprietários----> 
 
-    <p>Nossa localização:
-    <iframe src="https://maps.app.goo.gl/uyHiQSb7eVRg18i39"></iframe></p>
-
-    </body>
-
+<section>
+    <h2>Proprietários</h2>
+    <ul>
+        <li>Kamila Santiago dos Santos</li>
+        <li>Fulaninho de Tal da Silva</li>
+    </ul>
+</section>
+</body>
 </html>
